@@ -23,7 +23,7 @@ export default function RootLayout({
 
           <main className="flex-1 overflow-y-auto mt-10">{children}</main>
 
-          <footer className="py-2 bg-white text-center-text-white text-center text-xs shadow-xl text-gray-400">
+          <footer className=" bg-white text-center-text-white text-center text-xs shadow-xl text-gray-400 py-4">
             TechPrep &copy; {new Date().getFullYear()} - All Rights Reserved |
             Coded with 💖
           </footer>

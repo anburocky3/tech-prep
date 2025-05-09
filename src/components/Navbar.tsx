@@ -37,7 +37,7 @@ const NavbarLink: React.FunctionComponent<INavbarLinkProps> = ({
 
 const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
   return (
-    <header className="px-10 py-5  border-b fixed bg-white left-0 right-0  w-full z-[999]">
+    <header className="px-10 py-5  border-b border-gray-200 fixed bg-white left-0 right-0  w-full z-[999]">
       <div className="container flex items-center justify-between ">
         <Link href={"/"} className="font-semibold flex items-center">
           <LearningIcon className="mr-2 text-transparent fill-current" />
